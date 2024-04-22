@@ -9,6 +9,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 pdf_files
+files
+requirements.txt
 build/
 develop-eggs/
 dist/
