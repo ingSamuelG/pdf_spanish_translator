@@ -9,7 +9,7 @@ def run_translate():
     file_name = os.path.splitext(file_path)[0]
     new_docx = DocCreator(file_name)
     pdf = PdfHandler(file_path,file_name,translator)
-    pdf.translate_document_to_doc_file(new_docx)   
+    pdf.translate_document_to_doc_file(start_page=27,doc_creator=new_docx)   
     new_docx.save_doc() 
 
 if __name__ == "__main__":

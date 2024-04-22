@@ -8,6 +8,7 @@ class DocCreator:
 
     def create_page(self, text:str):
         list_of_text = text.split("\n")
+        print(f"crating page for doc")
         for para in list_of_text:
             self.document.add_paragraph(para)
         
